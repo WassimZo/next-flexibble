@@ -1,3 +1,5 @@
+export const revalidate = 0;
+
 import { ProjectInterface } from "@/common.types";
 import Categories from "@/components/Categories";
 import LoadMore from "@/components/LoadMore";
