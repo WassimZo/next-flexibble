@@ -22,7 +22,8 @@ const AuthProviders = () => {
     const fetchProviders = async () => {
       const res = await getProviders();
 
-      setProviders(res as Providers);
+      //@ts-ignore
+      setProviders(res);
     };
     fetchProviders();
   }, []);
